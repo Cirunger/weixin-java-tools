@@ -1,26 +1,33 @@
 package com.github.binarywang.wxpay.service.impl;
 
-import com.github.binarywang.wxpay.bean.entpay.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.security.Security;
+
+import javax.crypto.Cipher;
+
+import org.apache.commons.codec.binary.Base64;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import org.bouncycastle.openssl.PEMParser;
+
+import com.github.binarywang.wxpay.bean.entpay.EntPayBankQueryRequest;
+import com.github.binarywang.wxpay.bean.entpay.EntPayBankQueryResult;
+import com.github.binarywang.wxpay.bean.entpay.EntPayBankRequest;
+import com.github.binarywang.wxpay.bean.entpay.EntPayBankResult;
+import com.github.binarywang.wxpay.bean.entpay.EntPayQueryRequest;
+import com.github.binarywang.wxpay.bean.entpay.EntPayQueryResult;
+import com.github.binarywang.wxpay.bean.entpay.EntPayRequest;
+import com.github.binarywang.wxpay.bean.entpay.EntPayResult;
+import com.github.binarywang.wxpay.bean.entpay.GetPublicKeyResult;
 import com.github.binarywang.wxpay.bean.request.WxPayDefaultRequest;
 import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
 import com.github.binarywang.wxpay.exception.WxPayException;
 import com.github.binarywang.wxpay.service.EntPayService;
 import com.github.binarywang.wxpay.service.WxPayService;
 import com.github.binarywang.wxpay.util.SignUtils;
-import org.apache.commons.codec.binary.Base64;
-import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
-import org.bouncycastle.openssl.PEMParser;
-import org.bouncycastle.openssl.jcajce.JcaPEMKeyConverter;
-
-import javax.crypto.Cipher;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.security.PublicKey;
-import java.security.Security;
 
 /**
  * <pre>
@@ -109,10 +116,10 @@ public class EntPayServiceImpl implements EntPayService {
       Security.addProvider(new BouncyCastleProvider());
       Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWithSHA1AndMGF1Padding");
       try (PEMParser reader = new PEMParser(new FileReader(publicKeyFile))) {
-        final PublicKey publicKey = new JcaPEMKeyConverter().setProvider("BC")
+        /*final PublicKey publicKey = new JcaPEMKeyConverter().setProvider("BC")
           .getPublicKey((SubjectPublicKeyInfo) reader.readObject());
 
-        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
+        cipher.init(Cipher.ENCRYPT_MODE, publicKey);*/
         byte[] encrypt = cipher.doFinal(srcString.getBytes());
         return Base64.encodeBase64String(encrypt);
       }
