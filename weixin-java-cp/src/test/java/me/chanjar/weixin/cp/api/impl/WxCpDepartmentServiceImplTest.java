@@ -1,15 +1,18 @@
 package me.chanjar.weixin.cp.api.impl;
 
-import com.google.inject.Inject;
-import me.chanjar.weixin.cp.api.ApiTestModule;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.bean.WxCpDepart;
-import org.testng.annotations.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.testng.Assert.*;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.google.inject.Inject;
+
+import me.chanjar.weixin.cp.api.ApiTestModule;
+import me.chanjar.weixin.cp.api.WxCpService;
+import me.chanjar.weixin.cp.bean.WxCpDepart;
 
 /**
  * <pre>

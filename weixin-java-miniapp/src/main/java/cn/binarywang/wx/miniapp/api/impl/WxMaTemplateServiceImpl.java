@@ -1,5 +1,9 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.api.WxMaTemplateService;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateAddResult;
@@ -9,10 +13,6 @@ import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateListResult;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class WxMaTemplateServiceImpl implements WxMaTemplateService {
 

@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.api;
 
+import java.util.List;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.bean.tag.WxTagListUser;
 import me.chanjar.weixin.mp.bean.tag.WxUserTag;
-
-import java.util.List;
 
 /**
  * 用户标签管理相关接口

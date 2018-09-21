@@ -1,14 +1,20 @@
 package com.github.binarywang.wxpay.bean.request;
 
-import com.github.binarywang.wxpay.constant.WxPayConstants.BillType;
-import com.github.binarywang.wxpay.exception.WxPayException;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import lombok.*;
-import me.chanjar.weixin.common.annotation.Required;
+import java.util.Arrays;
+
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Arrays;
+import com.github.binarywang.wxpay.constant.WxPayConstants.BillType;
+import com.github.binarywang.wxpay.exception.WxPayException;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import me.chanjar.weixin.common.annotation.Required;
 
 /**
  * <pre>

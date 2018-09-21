@@ -1,5 +1,10 @@
 package me.chanjar.weixin.cp.api.impl;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.UUID;
+
 import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.fs.FileUtils;
@@ -7,11 +12,6 @@ import me.chanjar.weixin.common.util.http.BaseMediaDownloadRequestExecutor;
 import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
 import me.chanjar.weixin.cp.api.WxCpMediaService;
 import me.chanjar.weixin.cp.api.WxCpService;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.UUID;
 
 /**
  * <pre>

@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.builder.outxml;
 
-import me.chanjar.weixin.mp.bean.message.WxMpXmlOutNewsMessage;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import me.chanjar.weixin.mp.bean.message.WxMpXmlOutNewsMessage;
 
 /**
  * 图文消息builder

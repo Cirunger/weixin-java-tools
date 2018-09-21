@@ -1,15 +1,18 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import java.util.List;
+
+import org.testng.Assert;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
 import me.chanjar.weixin.mp.api.test.TestConfigStorage;
 import me.chanjar.weixin.mp.bean.tag.WxTagListUser;
 import me.chanjar.weixin.mp.bean.tag.WxUserTag;
-import org.testng.*;
-import org.testng.annotations.*;
-
-import java.util.List;
 
 /**
  * Created by Binary Wang on 2016/9/2.

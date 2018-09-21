@@ -1,12 +1,18 @@
 package me.chanjar.weixin.mp.util.json;
 
-import com.google.gson.*;
+import java.lang.reflect.Type;
+
+import org.apache.commons.lang3.StringUtils;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonSerializationContext;
+import com.google.gson.JsonSerializer;
+
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.api.WxConsts.KefuMsgType;
 import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
-import org.apache.commons.lang3.StringUtils;
-
-import java.lang.reflect.Type;
 
 public class WxMpKefuMessageGsonAdapter implements JsonSerializer<WxMpKefuMessage> {
 

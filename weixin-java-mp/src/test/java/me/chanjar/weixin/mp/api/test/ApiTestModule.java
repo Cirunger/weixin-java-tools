@@ -4,17 +4,17 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.concurrent.locks.ReentrantLock;
 
-import me.chanjar.weixin.mp.api.impl.WxMpServiceHttpClientImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.inject.Binder;
 import com.google.inject.Module;
 import com.thoughtworks.xstream.XStream;
+
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import me.chanjar.weixin.mp.api.WxMpService;
-import me.chanjar.weixin.mp.api.impl.WxMpServiceOkHttpImpl;
+import me.chanjar.weixin.mp.api.impl.WxMpServiceHttpClientImpl;
 
 public class ApiTestModule implements Module {
   private final Logger log = LoggerFactory.getLogger(this.getClass());

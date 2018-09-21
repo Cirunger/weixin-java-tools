@@ -1,9 +1,9 @@
 package cn.binarywang.wx.miniapp.bean;
 
+import java.io.Serializable;
+
 import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
 import lombok.Data;
-
-import java.io.Serializable;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

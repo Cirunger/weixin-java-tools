@@ -1,7 +1,18 @@
 package me.chanjar.weixin.cp.api.impl;
 
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotEquals;
+
+import java.util.List;
+
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.common.base.Splitter;
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.cp.api.ApiTestModule;
 import me.chanjar.weixin.cp.api.WxCpService;
@@ -10,15 +21,6 @@ import me.chanjar.weixin.cp.bean.WxCpTag;
 import me.chanjar.weixin.cp.bean.WxCpTagAddOrRemoveUsersResult;
 import me.chanjar.weixin.cp.bean.WxCpTagGetResult;
 import me.chanjar.weixin.cp.bean.WxCpUser;
-import org.testng.annotations.Guice;
-import org.testng.annotations.Test;
-
-import java.util.List;
-
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotEquals;
 
 /**
  * <pre>

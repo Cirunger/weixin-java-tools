@@ -1,6 +1,10 @@
 package me.chanjar.weixin.cp.api.impl;
 
-import jodd.http.*;
+import jodd.http.HttpConnectionProvider;
+import jodd.http.HttpRequest;
+import jodd.http.HttpResponse;
+import jodd.http.JoddHttp;
+import jodd.http.ProxyInfo;
 import me.chanjar.weixin.common.WxType;
 import me.chanjar.weixin.common.bean.WxAccessToken;
 import me.chanjar.weixin.common.error.WxError;

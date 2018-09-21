@@ -1,15 +1,22 @@
 package me.chanjar.weixin.mp.api.impl;
 
-import com.google.gson.JsonObject;
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.mp.api.WxMpDataCubeService;
-import me.chanjar.weixin.mp.api.WxMpService;
-import me.chanjar.weixin.mp.bean.datacube.*;
-import org.apache.commons.lang3.time.FastDateFormat;
-
 import java.text.Format;
 import java.util.Date;
 import java.util.List;
+
+import org.apache.commons.lang3.time.FastDateFormat;
+
+import com.google.gson.JsonObject;
+
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.mp.api.WxMpDataCubeService;
+import me.chanjar.weixin.mp.api.WxMpService;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeArticleResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeArticleTotal;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeInterfaceResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeMsgResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeUserCumulate;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeUserSummary;
 
 /**
  * Created by Binary Wang on 2016/8/23.

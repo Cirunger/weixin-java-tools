@@ -1,9 +1,10 @@
 package cn.binarywang.wx.miniapp.bean.analysis;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-
 import java.io.Serializable;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

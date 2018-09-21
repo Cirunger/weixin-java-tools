@@ -1,9 +1,9 @@
 package cn.binarywang.wx.miniapp.bean.code;
 
+import java.util.Map;
+
 import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
 import lombok.Data;
-
-import java.util.Map;
 
 /**
  * 小程序代码版本号分布

@@ -1,11 +1,12 @@
 package me.chanjar.weixin.open.bean.auth;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

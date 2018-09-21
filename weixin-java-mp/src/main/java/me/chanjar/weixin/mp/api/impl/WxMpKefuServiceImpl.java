@@ -1,8 +1,15 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import java.io.File;
+import java.util.Date;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.google.gson.JsonObject;
-import me.chanjar.weixin.common.error.WxError;
+
 import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
+import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
 import me.chanjar.weixin.mp.api.WxMpKefuService;
@@ -10,12 +17,12 @@ import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
 import me.chanjar.weixin.mp.bean.kefu.request.WxMpKfAccountRequest;
 import me.chanjar.weixin.mp.bean.kefu.request.WxMpKfSessionRequest;
-import me.chanjar.weixin.mp.bean.kefu.result.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.io.File;
-import java.util.Date;
+import me.chanjar.weixin.mp.bean.kefu.result.WxMpKfList;
+import me.chanjar.weixin.mp.bean.kefu.result.WxMpKfMsgList;
+import me.chanjar.weixin.mp.bean.kefu.result.WxMpKfOnlineList;
+import me.chanjar.weixin.mp.bean.kefu.result.WxMpKfSessionGetResult;
+import me.chanjar.weixin.mp.bean.kefu.result.WxMpKfSessionList;
+import me.chanjar.weixin.mp.bean.kefu.result.WxMpKfSessionWaitCaseList;
 
 /**
  * @author Binary Wang

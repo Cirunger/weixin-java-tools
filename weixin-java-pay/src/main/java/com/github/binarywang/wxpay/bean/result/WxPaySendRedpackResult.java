@@ -1,11 +1,12 @@
 package com.github.binarywang.wxpay.bean.result;
 
+import java.io.Serializable;
+
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
-import java.io.Serializable;
 
 /**
  * 向微信用户个人发现金红包返回结果

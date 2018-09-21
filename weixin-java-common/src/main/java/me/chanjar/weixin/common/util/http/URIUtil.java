@@ -1,9 +1,9 @@
 package me.chanjar.weixin.common.util.http;
 
 
-import org.apache.commons.lang3.StringUtils;
-
 import java.io.UnsupportedEncodingException;
+
+import org.apache.commons.lang3.StringUtils;
 
 public class URIUtil {
 

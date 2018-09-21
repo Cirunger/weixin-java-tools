@@ -1,17 +1,19 @@
 package me.chanjar.weixin.common.util;
 
-import com.google.common.collect.Lists;
-import me.chanjar.weixin.common.annotation.Required;
-import me.chanjar.weixin.common.error.WxError;
-import me.chanjar.weixin.common.error.WxErrorException;
-import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.google.common.collect.Lists;
+
+import me.chanjar.weixin.common.annotation.Required;
+import me.chanjar.weixin.common.error.WxError;
+import me.chanjar.weixin.common.error.WxErrorException;
 
 /**
  * <pre>

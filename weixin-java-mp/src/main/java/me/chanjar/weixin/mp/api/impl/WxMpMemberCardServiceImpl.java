@@ -1,10 +1,14 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpMemberCardService;
 import me.chanjar.weixin.mp.api.WxMpService;
@@ -13,8 +17,6 @@ import me.chanjar.weixin.mp.bean.membercard.WxMpMemberCardUpdateMessage;
 import me.chanjar.weixin.mp.bean.membercard.WxMpMemberCardUpdateResult;
 import me.chanjar.weixin.mp.bean.membercard.WxMpMemberCardUserInfoResult;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * 会员卡相关接口的实现类

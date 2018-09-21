@@ -1,13 +1,14 @@
 package cn.binarywang.wx.miniapp.util.json;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import cn.binarywang.wx.miniapp.bean.WxMaTemplateMessage;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaRetainInfo;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaUserPortrait;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitDistribution;
 import cn.binarywang.wx.miniapp.bean.code.WxMaCodeCommitRequest;
 import cn.binarywang.wx.miniapp.bean.code.WxMaCodeVersionDistribution;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

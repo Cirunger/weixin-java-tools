@@ -1,13 +1,15 @@
 package cn.binarywang.wx.miniapp.test;
 
-import cn.binarywang.wx.miniapp.config.WxMaInMemoryConfig;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
 import java.io.InputStream;
 import java.util.concurrent.locks.Lock;
+
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+import cn.binarywang.wx.miniapp.config.WxMaInMemoryConfig;
+import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

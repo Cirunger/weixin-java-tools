@@ -1,5 +1,10 @@
 package com.github.binarywang.wxpay.service.impl;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.github.binarywang.wxpay.bean.entpay.EntPayBankRequest;
 import com.github.binarywang.wxpay.bean.entpay.EntPayBankResult;
 import com.github.binarywang.wxpay.bean.entpay.EntPayRequest;
@@ -8,9 +13,6 @@ import com.github.binarywang.wxpay.exception.WxPayException;
 import com.github.binarywang.wxpay.service.WxPayService;
 import com.github.binarywang.wxpay.testbase.ApiTestModule;
 import com.google.inject.Inject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.testng.annotations.*;
 
 /**
  * <pre>

@@ -1,9 +1,9 @@
 package me.chanjar.weixin.mp.bean;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
-import java.io.Serializable;
 
 /**
  * 群发时用到的视频素材

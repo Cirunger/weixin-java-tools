@@ -1,8 +1,8 @@
 package me.chanjar.weixin.mp.bean.subscribe;
 
-import org.testng.annotations.*;
+import static org.testng.AssertJUnit.assertEquals;
 
-import static org.testng.AssertJUnit.*;
+import org.testng.annotations.Test;
 
 /**
  * @author Mklaus

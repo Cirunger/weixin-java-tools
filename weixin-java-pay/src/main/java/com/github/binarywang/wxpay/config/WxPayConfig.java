@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.KeyStore;
+
 import javax.net.ssl.SSLContext;
 
 import org.apache.commons.io.IOUtils;
@@ -13,6 +14,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.http.ssl.SSLContexts;
 
 import com.github.binarywang.wxpay.exception.WxPayException;
+
 import lombok.Data;
 
 /**

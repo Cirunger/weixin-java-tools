@@ -2,6 +2,7 @@ package com.github.binarywang.wxpay.exception;
 
 import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
 import com.google.common.base.Joiner;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

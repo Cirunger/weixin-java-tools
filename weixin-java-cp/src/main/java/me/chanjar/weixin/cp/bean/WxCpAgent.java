@@ -1,11 +1,12 @@
 package me.chanjar.weixin.cp.bean;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
-
 import java.io.Serializable;
 import java.util.List;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
+import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
 
 /**
  * <pre>

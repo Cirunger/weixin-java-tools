@@ -1,11 +1,11 @@
 package me.chanjar.weixin.mp.api;
 
+import java.util.List;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.bean.store.WxMpStoreBaseInfo;
 import me.chanjar.weixin.mp.bean.store.WxMpStoreInfo;
 import me.chanjar.weixin.mp.bean.store.WxMpStoreListResult;
-
-import java.util.List;
 
 /**
  * 门店管理的相关接口代码

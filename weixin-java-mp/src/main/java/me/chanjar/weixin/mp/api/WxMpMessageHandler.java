@@ -1,11 +1,11 @@
 package me.chanjar.weixin.mp.api;
 
+import java.util.Map;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.session.WxSessionManager;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
-
-import java.util.Map;
 
 /**
  * 处理微信推送消息的处理器接口

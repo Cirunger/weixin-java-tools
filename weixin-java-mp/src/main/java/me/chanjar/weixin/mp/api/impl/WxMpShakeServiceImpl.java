@@ -7,7 +7,11 @@ import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.WxMpShakeService;
 import me.chanjar.weixin.mp.bean.WxMpShakeInfoResult;
 import me.chanjar.weixin.mp.bean.WxMpShakeQuery;
-import me.chanjar.weixin.mp.bean.shake.*;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundDeviceBindPageQuery;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundPageAddQuery;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundPageAddResult;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundRelationSearchQuery;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundRelationSearchResult;
 
 /**
  * Created by rememberber on 2017/6/5.

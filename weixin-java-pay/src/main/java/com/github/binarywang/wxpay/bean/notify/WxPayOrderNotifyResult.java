@@ -1,18 +1,19 @@
 package com.github.binarywang.wxpay.bean.notify;
 
+import java.util.List;
+import java.util.Map;
+
 import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
 import com.github.binarywang.wxpay.converter.WxPayOrderNotifyResultConverter;
 import com.github.binarywang.wxpay.util.SignUtils;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-
-import java.util.List;
-import java.util.Map;
 
 /**
  * 支付结果通用通知 ，文档见：https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=9_7

@@ -1,11 +1,8 @@
 package me.chanjar.weixin.mp.util.requestexecuter.media;
 
-import me.chanjar.weixin.common.WxType;
-import me.chanjar.weixin.common.error.WxError;
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.common.util.http.RequestHttp;
-import me.chanjar.weixin.common.util.http.apache.Utf8ResponseHandler;
-import me.chanjar.weixin.mp.bean.material.WxMediaImgUploadResult;
+import java.io.File;
+import java.io.IOException;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
@@ -16,8 +13,12 @@ import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 
-import java.io.File;
-import java.io.IOException;
+import me.chanjar.weixin.common.WxType;
+import me.chanjar.weixin.common.error.WxError;
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.common.util.http.RequestHttp;
+import me.chanjar.weixin.common.util.http.apache.Utf8ResponseHandler;
+import me.chanjar.weixin.mp.bean.material.WxMediaImgUploadResult;
 
 /**
  * Created by ecoolper on 2017/5/5.

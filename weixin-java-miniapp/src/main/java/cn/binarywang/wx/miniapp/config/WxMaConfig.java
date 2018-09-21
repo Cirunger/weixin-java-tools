@@ -1,9 +1,9 @@
 package cn.binarywang.wx.miniapp.config;
 
+import java.util.concurrent.locks.Lock;
+
 import me.chanjar.weixin.common.bean.WxAccessToken;
 import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
-
-import java.util.concurrent.locks.Lock;
 
 /**
  * 小程序配置

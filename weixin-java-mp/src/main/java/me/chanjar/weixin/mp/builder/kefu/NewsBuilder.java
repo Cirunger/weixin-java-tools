@@ -1,11 +1,11 @@
 package me.chanjar.weixin.mp.builder.kefu;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import me.chanjar.weixin.common.api.WxConsts;
+import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
 
 /**
  * 图文消息builder

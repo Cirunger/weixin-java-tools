@@ -1,12 +1,18 @@
 package me.chanjar.weixin.open.util.json;
 
-import com.google.gson.*;
-import me.chanjar.weixin.common.util.json.GsonHelper;
-import me.chanjar.weixin.open.bean.auth.WxOpenAuthorizationInfo;
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
+
+import me.chanjar.weixin.common.util.json.GsonHelper;
+import me.chanjar.weixin.open.bean.auth.WxOpenAuthorizationInfo;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

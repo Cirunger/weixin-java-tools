@@ -1,7 +1,14 @@
 package me.chanjar.weixin.open.bean.message;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.Serializable;
+
+import org.apache.commons.io.IOUtils;
+
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
@@ -9,11 +16,6 @@ import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 import me.chanjar.weixin.open.api.WxOpenConfigStorage;
 import me.chanjar.weixin.open.util.WxOpenCryptUtil;
 import me.chanjar.weixin.open.util.xml.XStreamTransformer;
-import org.apache.commons.io.IOUtils;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Serializable;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

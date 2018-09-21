@@ -1,8 +1,9 @@
 package me.chanjar.weixin.cp.bean.messagebuilder;
 
+import org.apache.commons.lang3.StringUtils;
+
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.cp.bean.WxCpMessage;
-import org.apache.commons.lang3.StringUtils;
 
 public class BaseBuilder<T> {
   protected String msgType;

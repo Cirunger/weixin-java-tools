@@ -1,8 +1,8 @@
 package me.chanjar.weixin.mp.bean.template;
 
-import lombok.Data;
-
 import java.io.Serializable;
+
+import lombok.Data;
 
 /**
  * @author Daniel Qian

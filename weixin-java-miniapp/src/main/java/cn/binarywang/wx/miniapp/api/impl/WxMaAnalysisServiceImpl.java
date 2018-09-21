@@ -1,5 +1,15 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import java.lang.reflect.Type;
+import java.util.Date;
+import java.util.List;
+
+import org.apache.commons.lang3.time.DateFormatUtils;
+
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
+
 import cn.binarywang.wx.miniapp.api.WxMaAnalysisService;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaRetainInfo;
@@ -9,15 +19,7 @@ import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitDistribution;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitPage;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitTrend;
 import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-import com.google.gson.reflect.TypeToken;
 import me.chanjar.weixin.common.error.WxErrorException;
-import org.apache.commons.lang3.time.DateFormatUtils;
-
-import java.lang.reflect.Type;
-import java.util.Date;
-import java.util.List;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

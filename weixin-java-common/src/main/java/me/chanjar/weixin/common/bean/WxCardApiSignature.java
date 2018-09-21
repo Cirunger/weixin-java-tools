@@ -1,9 +1,9 @@
 package me.chanjar.weixin.common.bean;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.ToStringUtils;
-
-import java.io.Serializable;
 
 /**
  * 卡券Api签名.

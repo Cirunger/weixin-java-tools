@@ -1,9 +1,9 @@
 package me.chanjar.weixin.common.bean;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
-import java.io.Serializable;
 
 @Data
 public class WxAccessToken implements Serializable {

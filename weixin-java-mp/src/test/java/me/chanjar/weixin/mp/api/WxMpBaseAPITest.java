@@ -1,11 +1,14 @@
 package me.chanjar.weixin.mp.api;
 
+import org.apache.commons.lang3.StringUtils;
+import org.testng.Assert;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
-import org.apache.commons.lang3.StringUtils;
-import org.testng.*;
-import org.testng.annotations.*;
 
 /**
  * 基础API测试

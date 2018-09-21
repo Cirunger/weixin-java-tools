@@ -1,16 +1,17 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.http.SimplePostRequestExecutor;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.WxMpUserBlacklistService;
 import me.chanjar.weixin.mp.bean.result.WxMpUserBlacklistGetResult;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author miller

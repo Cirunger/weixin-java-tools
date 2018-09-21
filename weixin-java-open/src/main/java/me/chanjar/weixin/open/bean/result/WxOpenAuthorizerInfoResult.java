@@ -1,10 +1,10 @@
 package me.chanjar.weixin.open.bean.result;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.open.bean.auth.WxOpenAuthorizationInfo;
 import me.chanjar.weixin.open.bean.auth.WxOpenAuthorizerInfo;
-
-import java.io.Serializable;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

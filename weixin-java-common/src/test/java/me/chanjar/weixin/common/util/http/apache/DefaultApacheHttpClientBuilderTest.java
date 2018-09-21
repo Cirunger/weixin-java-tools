@@ -1,14 +1,14 @@
 package me.chanjar.weixin.common.util.http.apache;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class DefaultApacheHttpClientBuilderTest {
   @Test

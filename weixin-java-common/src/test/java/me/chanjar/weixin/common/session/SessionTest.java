@@ -1,7 +1,8 @@
 package me.chanjar.weixin.common.session;
 
-import org.testng.*;
-import org.testng.annotations.*;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 @Test
 public class SessionTest {

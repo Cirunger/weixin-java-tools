@@ -1,8 +1,8 @@
 package cn.binarywang.wx.miniapp.bean;
 
-import org.testng.annotations.*;
-
 import static org.assertj.core.api.Assertions.assertThat;
+
+import org.testng.annotations.Test;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

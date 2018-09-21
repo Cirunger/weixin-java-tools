@@ -1,10 +1,10 @@
 package me.chanjar.weixin.common.util.http;
 
+import java.io.File;
+
 import me.chanjar.weixin.common.util.http.apache.ApacheMediaDownloadRequestExecutor;
 import me.chanjar.weixin.common.util.http.jodd.JoddHttpMediaDownloadRequestExecutor;
 import me.chanjar.weixin.common.util.http.okhttp.OkHttpMediaDownloadRequestExecutor;
-
-import java.io.File;
 
 /**
  * 下载媒体文件请求执行器，请求的参数是String, 返回的结果是File

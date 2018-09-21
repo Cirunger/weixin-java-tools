@@ -1,11 +1,11 @@
 package me.chanjar.weixin.cp.bean.outxmlbuilder;
 
-import me.chanjar.weixin.cp.bean.WxCpXmlOutNewsMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutNewsMessage.Item;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import me.chanjar.weixin.cp.bean.WxCpXmlOutNewsMessage;
+import me.chanjar.weixin.cp.bean.WxCpXmlOutNewsMessage.Item;
 
 /**
  * 图文消息builder

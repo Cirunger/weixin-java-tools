@@ -1,12 +1,17 @@
 package me.chanjar.weixin.mp.util.json;
 
-import com.google.gson.*;
+import java.lang.reflect.Type;
+
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
 import com.google.gson.reflect.TypeToken;
+
 import me.chanjar.weixin.common.util.json.GsonHelper;
 import me.chanjar.weixin.mp.bean.WxMpCard;
 import me.chanjar.weixin.mp.bean.result.WxMpCardResult;
-
-import java.lang.reflect.Type;
 
 /**
  * Created by YuJian on 15/11/11.

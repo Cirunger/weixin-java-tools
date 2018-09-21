@@ -2,8 +2,6 @@ package com.github.binarywang.wxpay.config;
 
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 /**
  * <pre>
  *  Created by BinaryWang on 2017/6/18.

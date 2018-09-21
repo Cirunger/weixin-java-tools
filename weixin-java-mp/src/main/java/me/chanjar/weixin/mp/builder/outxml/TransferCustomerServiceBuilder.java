@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.builder.outxml;
 
-import me.chanjar.weixin.mp.bean.message.WxMpXmlOutTransferKefuMessage;
 import org.apache.commons.lang3.StringUtils;
+
+import me.chanjar.weixin.mp.bean.message.WxMpXmlOutTransferKefuMessage;
 
 /**
  * 客服消息builder

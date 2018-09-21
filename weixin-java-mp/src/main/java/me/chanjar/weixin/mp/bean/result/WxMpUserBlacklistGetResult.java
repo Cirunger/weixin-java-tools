@@ -1,11 +1,11 @@
 package me.chanjar.weixin.mp.bean.result;
 
-import lombok.Data;
-import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import lombok.Data;
+import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 /**
  * @author miller

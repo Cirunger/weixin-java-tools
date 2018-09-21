@@ -1,21 +1,23 @@
 package com.github.binarywang.wxpay.bean.request;
 
+import static com.github.binarywang.wxpay.constant.WxPayConstants.SignType.ALL_SIGN_TYPES;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+import org.apache.commons.lang3.StringUtils;
+
 import com.github.binarywang.wxpay.config.WxPayConfig;
 import com.github.binarywang.wxpay.exception.WxPayException;
 import com.github.binarywang.wxpay.util.SignUtils;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Data;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.BeanUtils;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-import org.apache.commons.lang3.StringUtils;
-
-import java.io.Serializable;
-import java.math.BigDecimal;
-
-import static com.github.binarywang.wxpay.constant.WxPayConstants.SignType.ALL_SIGN_TYPES;
 
 /**
  * <pre>

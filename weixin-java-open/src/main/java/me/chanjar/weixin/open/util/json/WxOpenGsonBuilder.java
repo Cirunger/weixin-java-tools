@@ -2,6 +2,7 @@ package me.chanjar.weixin.open.util.json;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
 import me.chanjar.weixin.open.bean.WxOpenAuthorizerAccessToken;
 import me.chanjar.weixin.open.bean.WxOpenComponentAccessToken;
 import me.chanjar.weixin.open.bean.auth.WxOpenAuthorizationInfo;

@@ -1,12 +1,12 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
-
 import java.io.File;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+
+import me.chanjar.weixin.common.bean.WxAccessToken;
+import me.chanjar.weixin.common.util.ToStringUtils;
+import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
 
 /**
  * 基于内存的微信配置provider，在实际生产环境中应该将这些配置持久化

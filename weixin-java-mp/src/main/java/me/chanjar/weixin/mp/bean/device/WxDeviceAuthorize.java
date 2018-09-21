@@ -1,12 +1,13 @@
 package me.chanjar.weixin.mp.bean.device;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 /**
  * @author keungtung

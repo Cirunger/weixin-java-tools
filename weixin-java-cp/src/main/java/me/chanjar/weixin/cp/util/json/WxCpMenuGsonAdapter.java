@@ -1,12 +1,13 @@
 package me.chanjar.weixin.cp.util.json;
 
+import java.lang.reflect.Type;
+
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParseException;
+
 import me.chanjar.weixin.common.bean.menu.WxMenu;
 import me.chanjar.weixin.common.util.json.WxMenuGsonAdapter;
-
-import java.lang.reflect.Type;
 
 /**
  * <pre>

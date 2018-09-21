@@ -1,17 +1,16 @@
 package me.chanjar.weixin.mp.util.requestexecuter.material;
 
+import java.io.IOException;
+
 import jodd.http.HttpConnectionProvider;
 import jodd.http.HttpRequest;
 import jodd.http.HttpResponse;
 import jodd.http.ProxyInfo;
 import jodd.util.StringPool;
-
 import me.chanjar.weixin.common.WxType;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.http.RequestHttp;
-
-import java.io.IOException;
 
 /**
  * Created by ecoolper on 2017/5/5.

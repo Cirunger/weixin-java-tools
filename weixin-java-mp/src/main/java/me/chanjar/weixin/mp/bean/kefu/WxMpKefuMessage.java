@@ -1,13 +1,21 @@
 package me.chanjar.weixin.mp.bean.kefu;
 
-import lombok.Data;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.mp.builder.kefu.*;
-import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import lombok.Data;
+import me.chanjar.weixin.common.api.WxConsts;
+import me.chanjar.weixin.mp.builder.kefu.ImageBuilder;
+import me.chanjar.weixin.mp.builder.kefu.MiniProgramPageBuilder;
+import me.chanjar.weixin.mp.builder.kefu.MpNewsBuilder;
+import me.chanjar.weixin.mp.builder.kefu.MusicBuilder;
+import me.chanjar.weixin.mp.builder.kefu.NewsBuilder;
+import me.chanjar.weixin.mp.builder.kefu.TextBuilder;
+import me.chanjar.weixin.mp.builder.kefu.VideoBuilder;
+import me.chanjar.weixin.mp.builder.kefu.VoiceBuilder;
+import me.chanjar.weixin.mp.builder.kefu.WxCardBuilder;
+import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 /**
  * 客服消息

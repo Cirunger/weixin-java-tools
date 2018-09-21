@@ -1,25 +1,31 @@
 package com.github.binarywang.wxpay.util;
 
-import com.github.binarywang.wxpay.bean.request.BaseWxPayRequest;
-import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
-import com.github.binarywang.wxpay.constant.WxPayConstants.SignType;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.BeanUtils;
+import java.lang.reflect.Field;
+import java.lang.reflect.Modifier;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
-import java.util.*;
+import com.github.binarywang.wxpay.bean.request.BaseWxPayRequest;
+import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
+import com.github.binarywang.wxpay.constant.WxPayConstants.SignType;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
 
 /**
  * <pre>

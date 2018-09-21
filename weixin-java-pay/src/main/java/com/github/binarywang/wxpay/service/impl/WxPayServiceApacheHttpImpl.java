@@ -2,6 +2,7 @@ package com.github.binarywang.wxpay.service.impl;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
+
 import javax.net.ssl.SSLContext;
 
 import org.apache.commons.lang3.StringUtils;
@@ -22,6 +23,7 @@ import org.apache.http.util.EntityUtils;
 
 import com.github.binarywang.wxpay.bean.WxPayApiData;
 import com.github.binarywang.wxpay.exception.WxPayException;
+
 import jodd.util.Base64;
 
 /**

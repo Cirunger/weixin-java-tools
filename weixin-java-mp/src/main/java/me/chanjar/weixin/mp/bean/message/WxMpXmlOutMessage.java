@@ -1,15 +1,22 @@
 package me.chanjar.weixin.mp.bean.message;
 
+import java.io.Serializable;
+
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
-import me.chanjar.weixin.mp.builder.outxml.*;
+import me.chanjar.weixin.mp.builder.outxml.ImageBuilder;
+import me.chanjar.weixin.mp.builder.outxml.MusicBuilder;
+import me.chanjar.weixin.mp.builder.outxml.NewsBuilder;
+import me.chanjar.weixin.mp.builder.outxml.TextBuilder;
+import me.chanjar.weixin.mp.builder.outxml.TransferCustomerServiceBuilder;
+import me.chanjar.weixin.mp.builder.outxml.VideoBuilder;
+import me.chanjar.weixin.mp.builder.outxml.VoiceBuilder;
 import me.chanjar.weixin.mp.util.crypto.WxMpCryptUtil;
 import me.chanjar.weixin.mp.util.xml.XStreamTransformer;
-
-import java.io.Serializable;
 
 @XStreamAlias("xml")
 @Data

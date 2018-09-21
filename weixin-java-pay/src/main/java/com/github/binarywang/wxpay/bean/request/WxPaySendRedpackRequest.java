@@ -1,7 +1,12 @@
 package com.github.binarywang.wxpay.bean.request;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import lombok.*;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 /**
  * 发送红包请求参数对象

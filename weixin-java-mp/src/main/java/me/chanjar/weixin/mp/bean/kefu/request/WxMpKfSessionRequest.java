@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.bean.kefu.request;
 
+import java.io.Serializable;
+
 import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
-import java.io.Serializable;
 
 @Data
 public class WxMpKfSessionRequest implements Serializable {

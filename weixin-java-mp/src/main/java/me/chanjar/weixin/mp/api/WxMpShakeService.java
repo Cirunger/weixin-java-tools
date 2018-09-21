@@ -4,7 +4,11 @@ import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.bean.WxMpShakeInfoResult;
 import me.chanjar.weixin.mp.bean.WxMpShakeQuery;
-import me.chanjar.weixin.mp.bean.shake.*;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundDeviceBindPageQuery;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundPageAddQuery;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundPageAddResult;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundRelationSearchQuery;
+import me.chanjar.weixin.mp.bean.shake.WxMpShakeAroundRelationSearchResult;
 
 /**
  * 摇一摇周边的相关接口

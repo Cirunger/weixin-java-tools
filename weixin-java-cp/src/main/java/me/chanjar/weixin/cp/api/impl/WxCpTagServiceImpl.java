@@ -1,7 +1,14 @@
 package me.chanjar.weixin.cp.api.impl;
 
-import com.google.gson.*;
+import java.util.List;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonPrimitive;
 import com.google.gson.reflect.TypeToken;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.cp.api.WxCpService;
 import me.chanjar.weixin.cp.api.WxCpTagService;
@@ -10,8 +17,6 @@ import me.chanjar.weixin.cp.bean.WxCpTagAddOrRemoveUsersResult;
 import me.chanjar.weixin.cp.bean.WxCpTagGetResult;
 import me.chanjar.weixin.cp.bean.WxCpUser;
 import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
-
-import java.util.List;
 
 /**
  * <pre>

@@ -1,9 +1,9 @@
 package me.chanjar.weixin.mp.bean;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
-import java.io.Serializable;
 
 /**
  * 摇一摇周边：获取设备及用户信息接口返回JSON数据接收类

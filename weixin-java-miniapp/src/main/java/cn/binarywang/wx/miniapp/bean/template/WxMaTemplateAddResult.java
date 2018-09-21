@@ -1,10 +1,11 @@
 package cn.binarywang.wx.miniapp.bean.template;
 
+import java.io.Serializable;
+
 import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
-import java.io.Serializable;
 
 @Data
 public class WxMaTemplateAddResult implements Serializable{

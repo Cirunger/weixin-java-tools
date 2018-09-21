@@ -1,14 +1,17 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
-import org.testng.annotations.*;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
+
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.google.inject.Inject;
 
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaPhoneNumberInfo;
 import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 import cn.binarywang.wx.miniapp.test.ApiTestModule;
-import com.google.inject.Inject;
-
-import static org.testng.Assert.*;
 
 /**
  * 测试用户相关的接口

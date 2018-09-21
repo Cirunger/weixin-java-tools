@@ -1,7 +1,10 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import java.util.List;
+
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+
 import me.chanjar.weixin.common.WxType;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -10,8 +13,6 @@ import me.chanjar.weixin.mp.api.WxMpTemplateMsgService;
 import me.chanjar.weixin.mp.bean.template.WxMpTemplate;
 import me.chanjar.weixin.mp.bean.template.WxMpTemplateIndustry;
 import me.chanjar.weixin.mp.bean.template.WxMpTemplateMessage;
-
-import java.util.List;
 
 /**
  * <pre>

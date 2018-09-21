@@ -1,10 +1,10 @@
 package me.chanjar.weixin.common.bean.result;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
-import java.io.Serializable;
 
 @Data
 public class WxMediaUploadResult implements Serializable {

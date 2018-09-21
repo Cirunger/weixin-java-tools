@@ -1,18 +1,19 @@
 package me.chanjar.weixin.cp.api;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.session.StandardSessionManager;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.cp.message.WxCpMessageHandler;
-import me.chanjar.weixin.cp.message.WxCpMessageMatcher;
-import me.chanjar.weixin.cp.message.WxCpMessageRouter;
-import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutMessage;
+import java.util.Map;
+
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.util.Map;
+import me.chanjar.weixin.common.api.WxConsts;
+import me.chanjar.weixin.common.session.StandardSessionManager;
+import me.chanjar.weixin.common.session.WxSessionManager;
+import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
+import me.chanjar.weixin.cp.bean.WxCpXmlOutMessage;
+import me.chanjar.weixin.cp.message.WxCpMessageHandler;
+import me.chanjar.weixin.cp.message.WxCpMessageMatcher;
+import me.chanjar.weixin.cp.message.WxCpMessageRouter;
 
 /**
  * 测试消息路由器

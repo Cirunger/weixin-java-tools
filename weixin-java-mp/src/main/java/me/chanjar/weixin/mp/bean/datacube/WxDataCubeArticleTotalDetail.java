@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.bean.datacube;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-
 import java.io.Serializable;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
 
 /**
  * 获取图文群发总数据接口(getarticletotal)中的详细字段

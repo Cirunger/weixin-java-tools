@@ -1,6 +1,7 @@
 package com.github.binarywang.wxpay.bean.result;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

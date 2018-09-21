@@ -1,6 +1,16 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import static org.testng.Assert.assertNotNull;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -14,12 +24,6 @@ import me.chanjar.weixin.mp.bean.WxMpMassTagMessage;
 import me.chanjar.weixin.mp.bean.WxMpMassVideo;
 import me.chanjar.weixin.mp.bean.result.WxMpMassSendResult;
 import me.chanjar.weixin.mp.bean.result.WxMpMassUploadResult;
-import org.testng.annotations.*;
-
-import java.io.IOException;
-import java.io.InputStream;
-
-import static org.testng.Assert.*;
 
 /**
  * 测试群发消息

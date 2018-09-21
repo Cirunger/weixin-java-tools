@@ -1,13 +1,14 @@
 package me.chanjar.weixin.mp.bean;
 
-import com.google.gson.Gson;
-import lombok.Data;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.google.gson.Gson;
+
+import lombok.Data;
 
 /**
  * 批量查询用户信息查询参数 <br>

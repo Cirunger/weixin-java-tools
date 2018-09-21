@@ -1,9 +1,9 @@
 package com.github.binarywang.wxpay.bean.result;
 
-import org.testng.*;
-import org.testng.annotations.*;
-
 import java.util.Map;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 /**
  * <pre>

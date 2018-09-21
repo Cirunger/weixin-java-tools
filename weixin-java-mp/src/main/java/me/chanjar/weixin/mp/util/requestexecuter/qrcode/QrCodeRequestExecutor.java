@@ -1,12 +1,12 @@
 package me.chanjar.weixin.mp.util.requestexecuter.qrcode;
 
+import java.io.File;
+
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.http.RequestExecutor;
 import me.chanjar.weixin.common.util.http.RequestHttp;
 import me.chanjar.weixin.mp.bean.result.WxMpQrCodeTicket;
-
-import java.io.File;
 
 /**
  * 获得QrCode图片 请求执行器

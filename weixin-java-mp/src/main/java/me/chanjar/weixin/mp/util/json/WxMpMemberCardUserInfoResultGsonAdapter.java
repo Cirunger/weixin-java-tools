@@ -1,12 +1,18 @@
 package me.chanjar.weixin.mp.util.json;
 
-import com.google.gson.*;
+import java.lang.reflect.Type;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
+
 import me.chanjar.weixin.common.util.json.GsonHelper;
 import me.chanjar.weixin.mp.bean.membercard.MemberCardUserInfo;
 import me.chanjar.weixin.mp.bean.membercard.NameValues;
 import me.chanjar.weixin.mp.bean.membercard.WxMpMemberCardUserInfoResult;
-
-import java.lang.reflect.Type;
 
 /**
  * Json to WxMpMemberCardUserInfoResult 的转换适配器

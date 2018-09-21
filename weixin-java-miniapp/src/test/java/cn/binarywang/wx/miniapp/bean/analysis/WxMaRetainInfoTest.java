@@ -1,8 +1,10 @@
 package cn.binarywang.wx.miniapp.bean.analysis;
 
-import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
 
-import static org.testng.Assert.*;
+import org.testng.annotations.Test;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

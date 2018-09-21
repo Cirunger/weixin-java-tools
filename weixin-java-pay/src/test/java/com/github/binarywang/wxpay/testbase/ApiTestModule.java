@@ -12,6 +12,7 @@ import com.github.binarywang.wxpay.service.impl.WxPayServiceImpl;
 import com.google.inject.Binder;
 import com.google.inject.Module;
 import com.thoughtworks.xstream.XStream;
+
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 public class ApiTestModule implements Module {

@@ -1,22 +1,22 @@
 package me.chanjar.weixin.mp.util.requestexecuter.material;
 
-import jodd.http.HttpConnectionProvider;
-import jodd.http.HttpRequest;
-import jodd.http.HttpResponse;
-import jodd.http.ProxyInfo;
-import jodd.util.StringPool;
-
-import me.chanjar.weixin.common.error.WxError;
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.common.util.http.RequestHttp;
-import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-import org.apache.commons.io.IOUtils;
-
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+
+import org.apache.commons.io.IOUtils;
+
+import jodd.http.HttpConnectionProvider;
+import jodd.http.HttpRequest;
+import jodd.http.HttpResponse;
+import jodd.http.ProxyInfo;
+import jodd.util.StringPool;
+import me.chanjar.weixin.common.error.WxError;
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.common.util.http.RequestHttp;
+import me.chanjar.weixin.common.util.json.WxGsonBuilder;
 
 /**
  * Created by ecoolper on 2017/5/5.

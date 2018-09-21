@@ -1,17 +1,26 @@
 package me.chanjar.weixin.mp.api.impl;
 
-import com.google.inject.Inject;
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.mp.api.WxMpService;
-import me.chanjar.weixin.mp.api.test.ApiTestModule;
-import me.chanjar.weixin.mp.bean.datacube.*;
-import org.apache.commons.lang3.time.FastDateFormat;
-import org.testng.*;
-import org.testng.annotations.*;
-
 import java.text.ParseException;
 import java.util.Date;
 import java.util.List;
+
+import org.apache.commons.lang3.time.FastDateFormat;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.google.inject.Inject;
+
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.mp.api.WxMpService;
+import me.chanjar.weixin.mp.api.test.ApiTestModule;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeArticleResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeArticleTotal;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeInterfaceResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeMsgResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeUserCumulate;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeUserSummary;
 
 /**
  * 测试统计分析相关的接口

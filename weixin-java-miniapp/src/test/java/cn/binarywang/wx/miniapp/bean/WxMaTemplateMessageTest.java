@@ -1,9 +1,10 @@
 package cn.binarywang.wx.miniapp.bean;
 
-import com.google.common.collect.Lists;
+import static org.testng.AssertJUnit.assertEquals;
+
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
+import com.google.common.collect.Lists;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

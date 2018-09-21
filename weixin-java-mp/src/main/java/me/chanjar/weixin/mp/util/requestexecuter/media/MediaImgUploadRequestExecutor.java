@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.util.requestexecuter.media;
 
+import java.io.File;
+
 import me.chanjar.weixin.common.util.http.RequestExecutor;
 import me.chanjar.weixin.common.util.http.RequestHttp;
 import me.chanjar.weixin.mp.bean.material.WxMediaImgUploadResult;
-
-import java.io.File;
 
 /**
  * @author miller

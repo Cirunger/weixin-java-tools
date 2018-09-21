@@ -1,13 +1,13 @@
 package cn.binarywang.wx.miniapp.api;
 
+import java.util.List;
+
 import cn.binarywang.wx.miniapp.bean.code.WxMaCategory;
 import cn.binarywang.wx.miniapp.bean.code.WxMaCodeAuditStatus;
 import cn.binarywang.wx.miniapp.bean.code.WxMaCodeCommitRequest;
 import cn.binarywang.wx.miniapp.bean.code.WxMaCodeSubmitAuditRequest;
 import cn.binarywang.wx.miniapp.bean.code.WxMaCodeVersionDistribution;
 import me.chanjar.weixin.common.error.WxErrorException;
-
-import java.util.List;
 
 /**
  * 小程序代码管理相关 API（大部分只能是第三方平台调用）

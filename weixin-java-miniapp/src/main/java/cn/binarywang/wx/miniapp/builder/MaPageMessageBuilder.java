@@ -1,8 +1,7 @@
 package cn.binarywang.wx.miniapp.builder;
 
 import cn.binarywang.wx.miniapp.bean.WxMaKefuMessage;
-
-import static cn.binarywang.wx.miniapp.constant.WxMaConstants.KefuMsgType;
+import cn.binarywang.wx.miniapp.constant.WxMaConstants.KefuMsgType;
 
 /**
  * 小程序卡片消息builder

@@ -1,12 +1,12 @@
 package me.chanjar.weixin.mp.bean;
 
-import lombok.Data;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import lombok.Data;
+import me.chanjar.weixin.common.api.WxConsts;
+import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 /**
  * openid列表群发的消息

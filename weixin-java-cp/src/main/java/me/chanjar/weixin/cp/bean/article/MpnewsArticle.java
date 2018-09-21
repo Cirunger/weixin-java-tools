@@ -1,9 +1,9 @@
 package me.chanjar.weixin.cp.bean.article;
 
+import java.io.Serializable;
+
 import lombok.Builder;
 import lombok.Data;
-
-import java.io.Serializable;
 
 /**
  * <pre>

@@ -1,5 +1,14 @@
 package com.github.binarywang.wxpay.converter;
 
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.commons.lang3.StringUtils;
+
 import com.github.binarywang.wxpay.bean.notify.WxPayOrderNotifyCoupon;
 import com.github.binarywang.wxpay.bean.notify.WxPayOrderNotifyResult;
 import com.google.common.base.Function;
@@ -13,14 +22,6 @@ import com.thoughtworks.xstream.converters.reflection.ReflectionProvider;
 import com.thoughtworks.xstream.io.HierarchicalStreamReader;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.mapper.Mapper;
-import org.apache.commons.lang3.StringUtils;
-
-import java.beans.PropertyDescriptor;
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author aimilin

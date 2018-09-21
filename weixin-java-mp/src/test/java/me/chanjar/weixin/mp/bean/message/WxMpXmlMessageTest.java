@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.bean.message;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import org.testng.annotations.*;
+import static org.testng.Assert.assertEquals;
 
-import static org.testng.Assert.*;
+import org.testng.annotations.Test;
+
+import me.chanjar.weixin.common.api.WxConsts;
 
 @Test
 public class WxMpXmlMessageTest {

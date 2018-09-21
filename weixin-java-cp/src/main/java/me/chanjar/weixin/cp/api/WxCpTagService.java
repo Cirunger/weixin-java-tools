@@ -1,12 +1,12 @@
 package me.chanjar.weixin.cp.api;
 
+import java.util.List;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.cp.bean.WxCpTag;
 import me.chanjar.weixin.cp.bean.WxCpTagAddOrRemoveUsersResult;
 import me.chanjar.weixin.cp.bean.WxCpTagGetResult;
 import me.chanjar.weixin.cp.bean.WxCpUser;
-
-import java.util.List;
 
 /**
  * <pre>

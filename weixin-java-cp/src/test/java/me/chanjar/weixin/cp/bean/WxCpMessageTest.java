@@ -1,11 +1,11 @@
 package me.chanjar.weixin.cp.bean;
 
-import me.chanjar.weixin.cp.bean.article.MpnewsArticle;
-import me.chanjar.weixin.cp.bean.article.NewArticle;
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.testng.annotations.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.testng.Assert.assertEquals;
+import me.chanjar.weixin.cp.bean.article.MpnewsArticle;
+import me.chanjar.weixin.cp.bean.article.NewArticle;
 
 @Test
 public class WxCpMessageTest {

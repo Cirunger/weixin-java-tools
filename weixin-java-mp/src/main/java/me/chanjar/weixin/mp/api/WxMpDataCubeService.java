@@ -1,10 +1,15 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.mp.bean.datacube.*;
-
 import java.util.Date;
 import java.util.List;
+
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeArticleResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeArticleTotal;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeInterfaceResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeMsgResult;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeUserCumulate;
+import me.chanjar.weixin.mp.bean.datacube.WxDataCubeUserSummary;
 
 /**
  * 统计分析相关接口

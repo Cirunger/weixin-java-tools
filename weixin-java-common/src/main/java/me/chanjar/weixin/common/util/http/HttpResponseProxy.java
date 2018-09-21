@@ -1,14 +1,15 @@
 package me.chanjar.weixin.common.util.http;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.apache.http.Header;
+import org.apache.http.client.methods.CloseableHttpResponse;
+
 import jodd.http.HttpResponse;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 import okhttp3.Response;
-import org.apache.http.Header;
-import org.apache.http.client.methods.CloseableHttpResponse;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * <pre>

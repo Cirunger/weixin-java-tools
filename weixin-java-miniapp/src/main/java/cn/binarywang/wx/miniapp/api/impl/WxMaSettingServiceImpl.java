@@ -1,13 +1,13 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.api.WxMaSettingService;
 import cn.binarywang.wx.miniapp.bean.WxMaDomainAction;
 import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
 import me.chanjar.weixin.common.error.WxErrorException;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

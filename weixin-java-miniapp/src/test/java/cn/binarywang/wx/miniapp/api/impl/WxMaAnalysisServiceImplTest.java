@@ -1,5 +1,20 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
+import org.apache.commons.lang3.time.DateFormatUtils;
+import org.apache.commons.lang3.time.DateUtils;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.google.inject.Inject;
+
 import cn.binarywang.wx.miniapp.api.WxMaAnalysisService;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaRetainInfo;
@@ -9,17 +24,6 @@ import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitDistribution;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitPage;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitTrend;
 import cn.binarywang.wx.miniapp.test.ApiTestModule;
-import com.google.inject.Inject;
-import org.apache.commons.lang3.time.DateFormatUtils;
-import org.apache.commons.lang3.time.DateUtils;
-import org.testng.annotations.Guice;
-import org.testng.annotations.Test;
-
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import static org.testng.Assert.*;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

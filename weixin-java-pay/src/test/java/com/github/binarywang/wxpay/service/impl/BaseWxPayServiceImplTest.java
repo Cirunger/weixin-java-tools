@@ -1,33 +1,57 @@
 package com.github.binarywang.wxpay.service.impl;
 
-import com.github.binarywang.utils.qrcode.QrcodeUtils;
-import com.github.binarywang.wxpay.bean.coupon.*;
-import com.github.binarywang.wxpay.bean.notify.WxPayOrderNotifyResult;
-import com.github.binarywang.wxpay.bean.order.WxPayAppOrderResult;
-import com.github.binarywang.wxpay.bean.order.WxPayMpOrderResult;
-import com.github.binarywang.wxpay.bean.order.WxPayNativeOrderResult;
-import com.github.binarywang.wxpay.bean.request.*;
-import com.github.binarywang.wxpay.bean.result.*;
-import com.github.binarywang.wxpay.constant.WxPayConstants.BillType;
-import com.github.binarywang.wxpay.constant.WxPayConstants.SignType;
-import com.github.binarywang.wxpay.constant.WxPayConstants.TradeType;
-import com.github.binarywang.wxpay.exception.WxPayException;
-import com.github.binarywang.wxpay.service.WxPayService;
-import com.github.binarywang.wxpay.testbase.ApiTestModule;
-import com.github.binarywang.wxpay.testbase.XmlWxPayConfig;
-import com.google.inject.Inject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.testng.annotations.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Calendar;
 import java.util.Date;
 
-import static com.github.binarywang.wxpay.constant.WxPayConstants.TarType;
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.testng.Assert.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.github.binarywang.utils.qrcode.QrcodeUtils;
+import com.github.binarywang.wxpay.bean.coupon.WxPayCouponInfoQueryRequest;
+import com.github.binarywang.wxpay.bean.coupon.WxPayCouponInfoQueryResult;
+import com.github.binarywang.wxpay.bean.coupon.WxPayCouponSendRequest;
+import com.github.binarywang.wxpay.bean.coupon.WxPayCouponSendResult;
+import com.github.binarywang.wxpay.bean.coupon.WxPayCouponStockQueryRequest;
+import com.github.binarywang.wxpay.bean.coupon.WxPayCouponStockQueryResult;
+import com.github.binarywang.wxpay.bean.notify.WxPayOrderNotifyResult;
+import com.github.binarywang.wxpay.bean.order.WxPayAppOrderResult;
+import com.github.binarywang.wxpay.bean.order.WxPayMpOrderResult;
+import com.github.binarywang.wxpay.bean.order.WxPayNativeOrderResult;
+import com.github.binarywang.wxpay.bean.request.WxPayAuthcode2OpenidRequest;
+import com.github.binarywang.wxpay.bean.request.WxPayMicropayRequest;
+import com.github.binarywang.wxpay.bean.request.WxPayOrderReverseRequest;
+import com.github.binarywang.wxpay.bean.request.WxPayRefundRequest;
+import com.github.binarywang.wxpay.bean.request.WxPayReportRequest;
+import com.github.binarywang.wxpay.bean.request.WxPaySendRedpackRequest;
+import com.github.binarywang.wxpay.bean.request.WxPayShorturlRequest;
+import com.github.binarywang.wxpay.bean.request.WxPayUnifiedOrderRequest;
+import com.github.binarywang.wxpay.bean.result.WxPayBillResult;
+import com.github.binarywang.wxpay.bean.result.WxPayMicropayResult;
+import com.github.binarywang.wxpay.bean.result.WxPayOrderReverseResult;
+import com.github.binarywang.wxpay.bean.result.WxPayRedpackQueryResult;
+import com.github.binarywang.wxpay.bean.result.WxPayRefundQueryResult;
+import com.github.binarywang.wxpay.bean.result.WxPayRefundResult;
+import com.github.binarywang.wxpay.bean.result.WxPaySendRedpackResult;
+import com.github.binarywang.wxpay.bean.result.WxPayUnifiedOrderResult;
+import com.github.binarywang.wxpay.constant.WxPayConstants.BillType;
+import com.github.binarywang.wxpay.constant.WxPayConstants.SignType;
+import com.github.binarywang.wxpay.constant.WxPayConstants.TarType;
+import com.github.binarywang.wxpay.constant.WxPayConstants.TradeType;
+import com.github.binarywang.wxpay.exception.WxPayException;
+import com.github.binarywang.wxpay.service.WxPayService;
+import com.github.binarywang.wxpay.testbase.ApiTestModule;
+import com.github.binarywang.wxpay.testbase.XmlWxPayConfig;
+import com.google.inject.Inject;
 
 /**
  * 测试支付相关接口

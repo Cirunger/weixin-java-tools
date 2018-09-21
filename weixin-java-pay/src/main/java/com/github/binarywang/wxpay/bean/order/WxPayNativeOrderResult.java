@@ -1,7 +1,6 @@
 package com.github.binarywang.wxpay.bean.order;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 
 /**

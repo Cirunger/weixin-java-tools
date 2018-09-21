@@ -1,8 +1,8 @@
 package me.chanjar.weixin.mp.bean.membercard;
 
-import lombok.Data;
-
 import java.io.Serializable;
+
+import lombok.Data;
 
 /**
  *

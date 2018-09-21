@@ -1,9 +1,8 @@
 package me.chanjar.weixin.common.error;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
 
-import static org.testng.Assert.*;
+import org.testng.annotations.Test;
 
 @Test
 public class WxErrorTest {

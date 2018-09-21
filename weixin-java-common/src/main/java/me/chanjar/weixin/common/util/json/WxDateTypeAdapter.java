@@ -1,13 +1,13 @@
 package me.chanjar.weixin.common.util.json;
 
+import java.io.IOException;
+import java.util.Date;
+
 import com.google.gson.JsonParseException;
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
-
-import java.io.IOException;
-import java.util.Date;
 
 /**
  * <pre>

@@ -1,12 +1,12 @@
 package me.chanjar.weixin.open.api.impl;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import me.chanjar.weixin.mp.api.WxMpMessageRouter;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 import me.chanjar.weixin.open.api.WxOpenService;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class WxOpenMessageRouter extends WxMpMessageRouter {
   private WxOpenService wxOpenService;

@@ -1,17 +1,18 @@
 package cn.binarywang.wx.miniapp.util.json;
 
-import cn.binarywang.wx.miniapp.bean.analysis.WxMaRetainInfo;
+import java.lang.reflect.Type;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
-import me.chanjar.weixin.common.util.json.GsonHelper;
 
-import java.lang.reflect.Type;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import cn.binarywang.wx.miniapp.bean.analysis.WxMaRetainInfo;
+import me.chanjar.weixin.common.util.json.GsonHelper;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

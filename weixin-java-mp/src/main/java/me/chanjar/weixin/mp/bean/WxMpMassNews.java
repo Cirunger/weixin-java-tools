@@ -1,12 +1,12 @@
 package me.chanjar.weixin.mp.bean;
 
-import lombok.Data;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import lombok.Data;
+import me.chanjar.weixin.common.util.ToStringUtils;
+import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 /**
  * 群发时用到的图文消息素材

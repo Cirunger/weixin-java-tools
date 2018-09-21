@@ -2,6 +2,7 @@ package me.chanjar.weixin.mp.bean.message;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import me.chanjar.weixin.common.api.WxConsts;

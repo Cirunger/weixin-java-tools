@@ -1,10 +1,10 @@
 package cn.binarywang.wx.miniapp.bean.code;
 
+import java.io.Serializable;
+
 import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
 import lombok.Builder;
 import lombok.Data;
-
-import java.io.Serializable;
 
 /**
  * 微信代码请求上传参数

@@ -1,7 +1,7 @@
 package me.chanjar.weixin.common.bean;
 
-import org.testng.*;
-import org.testng.annotations.*;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 @Test
 public class WxAccessTokenTest {

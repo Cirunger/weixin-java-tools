@@ -1,9 +1,9 @@
 package me.chanjar.weixin.common.util.crypto;
 
-import org.testng.annotations.Test;
-
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
+
+import org.testng.annotations.Test;
 
 /**
  * <pre>

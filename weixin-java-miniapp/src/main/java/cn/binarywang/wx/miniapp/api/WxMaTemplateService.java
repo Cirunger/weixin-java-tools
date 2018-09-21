@@ -1,12 +1,12 @@
 package cn.binarywang.wx.miniapp.api;
 
+import java.util.List;
+
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateAddResult;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateLibraryGetResult;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateLibraryListResult;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateListResult;
 import me.chanjar.weixin.common.error.WxErrorException;
-
-import java.util.List;
 
 public interface WxMaTemplateService {
 

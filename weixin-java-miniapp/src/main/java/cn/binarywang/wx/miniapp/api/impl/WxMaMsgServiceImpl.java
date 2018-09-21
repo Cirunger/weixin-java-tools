@@ -1,12 +1,13 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 import cn.binarywang.wx.miniapp.api.WxMaMsgService;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaKefuMessage;
 import cn.binarywang.wx.miniapp.bean.WxMaTemplateMessage;
 import cn.binarywang.wx.miniapp.constant.WxMaConstants;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
 

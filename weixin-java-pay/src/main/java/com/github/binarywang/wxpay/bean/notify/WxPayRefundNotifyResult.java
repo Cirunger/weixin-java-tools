@@ -1,22 +1,25 @@
 package com.github.binarywang.wxpay.bean.notify;
 
+import java.io.Serializable;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
+
+import org.apache.commons.codec.binary.Base64;
+
 import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
 import com.github.binarywang.wxpay.exception.WxPayException;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-import org.apache.commons.codec.binary.Base64;
-
-import javax.crypto.Cipher;
-import javax.crypto.spec.SecretKeySpec;
-import java.io.Serializable;
-import java.math.BigInteger;
-import java.security.MessageDigest;
 
 /**
  * <pre>

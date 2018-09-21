@@ -1,9 +1,9 @@
 package me.chanjar.weixin.mp.api;
 
+import java.util.List;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.bean.result.WxMpUserBlacklistGetResult;
-
-import java.util.List;
 
 /**
  * @author miller

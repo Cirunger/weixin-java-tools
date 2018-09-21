@@ -1,10 +1,11 @@
 package me.chanjar.weixin.common.bean.menu;
 
+import java.io.Serializable;
+
 import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.ToStringUtils;
-
-import java.io.Serializable;
 
 @Data
 public class WxMenuRule implements Serializable {

@@ -1,8 +1,8 @@
 package me.chanjar.weixin.open.bean;
 
-import me.chanjar.weixin.open.util.json.WxOpenGsonBuilder;
-
 import java.io.Serializable;
+
+import me.chanjar.weixin.open.util.json.WxOpenGsonBuilder;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

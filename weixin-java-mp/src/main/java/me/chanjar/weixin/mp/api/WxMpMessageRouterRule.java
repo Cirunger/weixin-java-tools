@@ -1,17 +1,18 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.api.WxErrorExceptionHandler;
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
-import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
-import org.apache.commons.lang3.StringUtils;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+
+import org.apache.commons.lang3.StringUtils;
+
+import me.chanjar.weixin.common.api.WxErrorExceptionHandler;
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.common.session.WxSessionManager;
+import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
+import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 
 public class WxMpMessageRouterRule {
 

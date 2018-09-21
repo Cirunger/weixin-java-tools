@@ -1,9 +1,9 @@
 package me.chanjar.weixin.common.util.crypto;
 
+import java.util.Arrays;
+
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
-
-import java.util.Arrays;
 
 /**
  * Created by Daniel Qian on 14/10/19.

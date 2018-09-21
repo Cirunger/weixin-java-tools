@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

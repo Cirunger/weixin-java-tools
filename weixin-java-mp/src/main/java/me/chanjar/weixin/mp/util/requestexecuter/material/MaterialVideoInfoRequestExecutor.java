@@ -2,9 +2,8 @@ package me.chanjar.weixin.mp.util.requestexecuter.material;
 
 
   import me.chanjar.weixin.common.util.http.RequestExecutor;
-  import me.chanjar.weixin.common.util.http.RequestHttp;
-
-  import me.chanjar.weixin.mp.bean.material.WxMpMaterialVideoInfoResult;
+import me.chanjar.weixin.common.util.http.RequestHttp;
+import me.chanjar.weixin.mp.bean.material.WxMpMaterialVideoInfoResult;
 
 
 public abstract class MaterialVideoInfoRequestExecutor<H, P> implements RequestExecutor<WxMpMaterialVideoInfoResult, String> {

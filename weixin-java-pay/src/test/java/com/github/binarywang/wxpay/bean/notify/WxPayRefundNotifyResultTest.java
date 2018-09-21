@@ -1,19 +1,21 @@
 package com.github.binarywang.wxpay.bean.notify;
 
-import com.github.binarywang.wxpay.config.WxPayConfig;
-import com.github.binarywang.wxpay.exception.WxPayException;
-import com.github.binarywang.wxpay.testbase.ApiTestModule;
-import org.apache.commons.codec.binary.Base64;
-import org.testng.annotations.Guice;
-import org.testng.annotations.Test;
+import static org.testng.Assert.assertNotNull;
+
+import java.math.BigInteger;
+import java.security.MessageDigest;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import javax.inject.Inject;
-import java.math.BigInteger;
-import java.security.MessageDigest;
 
-import static org.testng.Assert.assertNotNull;
+import org.apache.commons.codec.binary.Base64;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.github.binarywang.wxpay.config.WxPayConfig;
+import com.github.binarywang.wxpay.exception.WxPayException;
+import com.github.binarywang.wxpay.testbase.ApiTestModule;
 
 /**
  * <pre>

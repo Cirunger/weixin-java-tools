@@ -1,13 +1,17 @@
 package me.chanjar.weixin.cp.api;
 
+import static org.testng.Assert.assertNotNull;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.cp.bean.WxCpMessage;
 import me.chanjar.weixin.cp.bean.WxCpMessageSendResult;
-import org.testng.annotations.*;
-
-import static org.testng.Assert.*;
 
 /***
  * 测试发送消息

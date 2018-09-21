@@ -1,7 +1,11 @@
 package me.chanjar.weixin.mp.api;
 
 import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.mp.bean.*;
+import me.chanjar.weixin.mp.bean.WxMpMassNews;
+import me.chanjar.weixin.mp.bean.WxMpMassOpenIdsMessage;
+import me.chanjar.weixin.mp.bean.WxMpMassPreviewMessage;
+import me.chanjar.weixin.mp.bean.WxMpMassTagMessage;
+import me.chanjar.weixin.mp.bean.WxMpMassVideo;
 import me.chanjar.weixin.mp.bean.result.WxMpMassSendResult;
 import me.chanjar.weixin.mp.bean.result.WxMpMassUploadResult;
 

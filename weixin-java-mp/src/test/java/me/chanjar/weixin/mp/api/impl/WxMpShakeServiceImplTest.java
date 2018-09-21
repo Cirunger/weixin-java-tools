@@ -1,12 +1,14 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
 import me.chanjar.weixin.mp.bean.WxMpShakeInfoResult;
 import me.chanjar.weixin.mp.bean.WxMpShakeQuery;
-import org.testng.annotations.Guice;
-import org.testng.annotations.Test;
 
 /**
  * 测试摇一摇周边相关的接口

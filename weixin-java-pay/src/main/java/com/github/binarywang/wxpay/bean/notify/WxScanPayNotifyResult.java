@@ -2,6 +2,7 @@ package com.github.binarywang.wxpay.bean.notify;
 
 import com.github.binarywang.wxpay.bean.result.BaseWxPayResult;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

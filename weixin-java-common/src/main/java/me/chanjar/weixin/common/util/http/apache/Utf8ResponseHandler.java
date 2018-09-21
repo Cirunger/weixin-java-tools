@@ -1,5 +1,7 @@
 package me.chanjar.weixin.common.util.http.apache;
 
+import java.io.IOException;
+
 import org.apache.http.Consts;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -7,8 +9,6 @@ import org.apache.http.StatusLine;
 import org.apache.http.client.HttpResponseException;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.util.EntityUtils;
-
-import java.io.IOException;
 
 /**
  * copy from {@link org.apache.http.impl.client.BasicResponseHandler}

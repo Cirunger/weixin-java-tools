@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.bean.device;
 
+import java.util.List;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
-import java.util.List;
 
 /**
  * @author keungtung.

@@ -1,12 +1,11 @@
 package me.chanjar.weixin.common.api;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
+import org.testng.annotations.Test;
 
 @Test
 public class WxMessageInMemoryDuplicateCheckerTest {

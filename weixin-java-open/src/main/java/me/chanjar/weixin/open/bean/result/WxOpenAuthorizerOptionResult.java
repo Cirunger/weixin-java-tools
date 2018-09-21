@@ -1,8 +1,8 @@
 package me.chanjar.weixin.open.bean.result;
 
-import lombok.Data;
-
 import java.io.Serializable;
+
+import lombok.Data;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

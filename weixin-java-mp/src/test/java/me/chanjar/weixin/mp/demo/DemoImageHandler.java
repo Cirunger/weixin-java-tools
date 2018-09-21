@@ -1,5 +1,7 @@
 package me.chanjar.weixin.mp.demo;
 
+import java.util.Map;
+
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -10,8 +12,6 @@ import me.chanjar.weixin.mp.api.test.TestConstants;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutImageMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
-
-import java.util.Map;
 
 public class DemoImageHandler implements WxMpMessageHandler {
   @Override

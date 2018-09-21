@@ -1,13 +1,13 @@
 package me.chanjar.weixin.common.util.http;
 
-import org.apache.http.conn.DnsResolver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.http.conn.DnsResolver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * 微信DNS域名解析器，将微信域名绑定到指定IP

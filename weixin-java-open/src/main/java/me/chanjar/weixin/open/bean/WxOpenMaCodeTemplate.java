@@ -1,9 +1,10 @@
 package me.chanjar.weixin.open.bean;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-
 import java.io.Serializable;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
 
 /**
  * @author <a href="https://github.com/charmingoh">Charming</a>

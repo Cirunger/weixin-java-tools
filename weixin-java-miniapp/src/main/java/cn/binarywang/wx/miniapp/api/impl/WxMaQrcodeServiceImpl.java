@@ -1,5 +1,7 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import java.io.File;
+
 import cn.binarywang.wx.miniapp.api.WxMaQrcodeService;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaCodeLineColor;
@@ -8,8 +10,6 @@ import cn.binarywang.wx.miniapp.bean.WxMaWxcode;
 import cn.binarywang.wx.miniapp.bean.WxaCodeUnlimit;
 import cn.binarywang.wx.miniapp.util.http.QrCodeRequestExecutor;
 import me.chanjar.weixin.common.error.WxErrorException;
-
-import java.io.File;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

@@ -1,8 +1,8 @@
 package me.chanjar.weixin.mp.bean.device;
 
-import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
 import java.io.Serializable;
+
+import me.chanjar.weixin.common.util.json.WxGsonBuilder;
 
 /**
  * 设备抽象类.

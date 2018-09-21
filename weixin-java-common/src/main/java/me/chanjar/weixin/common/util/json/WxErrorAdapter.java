@@ -1,9 +1,14 @@
 package me.chanjar.weixin.common.util.json;
 
-import com.google.gson.*;
-import me.chanjar.weixin.common.error.WxError;
-
 import java.lang.reflect.Type;
+
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
+
+import me.chanjar.weixin.common.error.WxError;
 
 /**
  * @author Daniel Qian.

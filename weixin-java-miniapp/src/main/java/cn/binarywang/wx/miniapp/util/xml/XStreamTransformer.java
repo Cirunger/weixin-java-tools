@@ -7,8 +7,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import cn.binarywang.wx.miniapp.bean.WxMaMessage;
 import com.thoughtworks.xstream.XStream;
+
+import cn.binarywang.wx.miniapp.bean.WxMaMessage;
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 /**

@@ -1,14 +1,15 @@
 package me.chanjar.weixin.mp.bean.menu;
 
+import java.io.Serializable;
+import java.util.List;
+
 import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
 import me.chanjar.weixin.common.bean.menu.WxMenuButton;
 import me.chanjar.weixin.common.bean.menu.WxMenuRule;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
-import java.io.Serializable;
-import java.util.List;
 
 /**
  * <pre>

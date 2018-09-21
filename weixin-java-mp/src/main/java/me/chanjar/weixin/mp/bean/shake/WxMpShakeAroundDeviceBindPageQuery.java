@@ -1,10 +1,11 @@
 package me.chanjar.weixin.mp.bean.shake;
 
+import java.util.Collection;
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import lombok.Data;
 
-import java.util.Collection;
+import lombok.Data;
 
 @Data
 public class WxMpShakeAroundDeviceBindPageQuery {

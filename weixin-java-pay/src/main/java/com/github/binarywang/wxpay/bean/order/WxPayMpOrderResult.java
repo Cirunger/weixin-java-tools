@@ -1,6 +1,7 @@
 package com.github.binarywang.wxpay.bean.order;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.Builder;
 import lombok.Data;
 

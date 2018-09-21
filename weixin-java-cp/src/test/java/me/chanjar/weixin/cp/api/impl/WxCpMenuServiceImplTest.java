@@ -1,14 +1,18 @@
 package me.chanjar.weixin.cp.api.impl;
 
+import static org.testng.Assert.assertNotNull;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.common.bean.menu.WxMenu;
 import me.chanjar.weixin.common.bean.menu.WxMenuButton;
 import me.chanjar.weixin.cp.api.ApiTestModule;
 import me.chanjar.weixin.cp.api.WxCpService;
-import org.testng.annotations.*;
-
-import static org.testng.Assert.*;
 
 /**
  * <pre>

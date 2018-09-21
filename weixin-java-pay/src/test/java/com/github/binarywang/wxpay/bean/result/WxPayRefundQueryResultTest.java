@@ -1,8 +1,8 @@
 package com.github.binarywang.wxpay.bean.result;
 
 
-import org.testng.*;
-import org.testng.annotations.*;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 /**
  * <pre>

@@ -1,5 +1,8 @@
 package cn.binarywang.wx.miniapp.api;
 
+import java.util.Date;
+import java.util.List;
+
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaRetainInfo;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaSummaryTrend;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaUserPortrait;
@@ -7,9 +10,6 @@ import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitDistribution;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitPage;
 import cn.binarywang.wx.miniapp.bean.analysis.WxMaVisitTrend;
 import me.chanjar.weixin.common.error.WxErrorException;
-
-import java.util.Date;
-import java.util.List;
 
 /**
  * 小程序数据分析相关接口

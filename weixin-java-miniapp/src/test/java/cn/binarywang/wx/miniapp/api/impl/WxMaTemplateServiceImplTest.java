@@ -1,18 +1,20 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import java.util.List;
+
+import org.assertj.core.util.Lists;
+import org.testng.Assert;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.google.inject.Inject;
+
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateAddResult;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateLibraryGetResult;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateLibraryListResult;
 import cn.binarywang.wx.miniapp.bean.template.WxMaTemplateListResult;
 import cn.binarywang.wx.miniapp.test.ApiTestModule;
-import com.google.inject.Inject;
-import org.assertj.core.util.Lists;
-import org.testng.Assert;
-import org.testng.annotations.Guice;
-import org.testng.annotations.Test;
-
-import java.util.List;
 
 @Test
 @Guice(modules = ApiTestModule.class)

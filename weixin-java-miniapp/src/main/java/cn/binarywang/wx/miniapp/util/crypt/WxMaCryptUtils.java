@@ -1,14 +1,16 @@
 package cn.binarywang.wx.miniapp.util.crypt;
 
-import cn.binarywang.wx.miniapp.config.WxMaConfig;
-import me.chanjar.weixin.common.util.crypto.PKCS7Encoder;
-import org.apache.commons.codec.binary.Base64;
+import java.nio.charset.StandardCharsets;
+import java.security.AlgorithmParameters;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
-import java.nio.charset.StandardCharsets;
-import java.security.AlgorithmParameters;
+
+import org.apache.commons.codec.binary.Base64;
+
+import cn.binarywang.wx.miniapp.config.WxMaConfig;
+import me.chanjar.weixin.common.util.crypto.PKCS7Encoder;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

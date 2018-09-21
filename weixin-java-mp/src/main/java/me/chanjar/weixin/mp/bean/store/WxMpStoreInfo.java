@@ -1,10 +1,11 @@
 package me.chanjar.weixin.mp.bean.store;
 
+import java.io.Serializable;
+
 import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.ToStringUtils;
-
-import java.io.Serializable;
 
 @Data
 public class WxMpStoreInfo implements Serializable{

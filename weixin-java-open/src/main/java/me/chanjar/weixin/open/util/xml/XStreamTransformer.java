@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.thoughtworks.xstream.XStream;
+
 import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 import me.chanjar.weixin.open.bean.message.WxOpenXmlMessage;
 

@@ -1,16 +1,17 @@
 package me.chanjar.weixin.cp.api.impl;
 
+import java.util.List;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.json.GsonHelper;
 import me.chanjar.weixin.cp.api.WxCpDepartmentService;
 import me.chanjar.weixin.cp.api.WxCpService;
 import me.chanjar.weixin.cp.bean.WxCpDepart;
 import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
-
-import java.util.List;
 
 /**
  * <pre>

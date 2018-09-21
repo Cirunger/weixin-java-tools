@@ -17,8 +17,9 @@
  */
 package me.chanjar.weixin.mp.util.crypto;
 
-import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import org.apache.commons.codec.binary.Base64;
+
+import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 
 public class WxMpCryptUtil extends me.chanjar.weixin.common.util.crypto.WxCryptUtil {
 

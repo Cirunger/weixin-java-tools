@@ -1,9 +1,9 @@
 package me.chanjar.weixin.open.bean.auth;
 
-import lombok.Data;
-
 import java.io.Serializable;
 import java.util.List;
+
+import lombok.Data;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

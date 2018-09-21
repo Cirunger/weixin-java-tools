@@ -1,11 +1,11 @@
 package me.chanjar.weixin.mp.bean.material;
 
-import lombok.Data;
-import me.chanjar.weixin.common.util.ToStringUtils;
-
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
+
+import lombok.Data;
+import me.chanjar.weixin.common.util.ToStringUtils;
 
 @Data
 public class WxMpMaterialNewsBatchGetResult implements Serializable {

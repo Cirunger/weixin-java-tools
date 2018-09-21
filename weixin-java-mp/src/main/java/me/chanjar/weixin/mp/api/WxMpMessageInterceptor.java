@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.api;
 
+import java.util.Map;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.session.WxSessionManager;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
-
-import java.util.Map;
 
 /**
  * 微信消息拦截器，可以用来做验证

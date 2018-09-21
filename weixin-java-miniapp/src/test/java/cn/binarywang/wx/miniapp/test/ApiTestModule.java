@@ -7,10 +7,11 @@ import java.util.concurrent.locks.ReentrantLock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import cn.binarywang.wx.miniapp.api.WxMaService;
-import cn.binarywang.wx.miniapp.config.WxMaConfig;
 import com.google.inject.Binder;
 import com.google.inject.Module;
+
+import cn.binarywang.wx.miniapp.api.WxMaService;
+import cn.binarywang.wx.miniapp.config.WxMaConfig;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

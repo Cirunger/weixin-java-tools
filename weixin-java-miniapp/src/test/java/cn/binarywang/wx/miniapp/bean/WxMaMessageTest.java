@@ -1,9 +1,10 @@
 package cn.binarywang.wx.miniapp.bean;
 
-import me.chanjar.weixin.common.api.WxConsts;
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
+import me.chanjar.weixin.common.api.WxConsts;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

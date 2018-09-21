@@ -1,5 +1,25 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import static cn.binarywang.wx.miniapp.constant.WxMaConstants.ErrorCode.ERR_40001;
+import static cn.binarywang.wx.miniapp.constant.WxMaConstants.ErrorCode.ERR_40014;
+import static cn.binarywang.wx.miniapp.constant.WxMaConstants.ErrorCode.ERR_42001;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.locks.Lock;
+
+import org.apache.http.HttpHost;
+import org.apache.http.client.config.RequestConfig;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.BasicResponseHandler;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.google.common.base.Joiner;
+
 import cn.binarywang.wx.miniapp.api.WxMaAnalysisService;
 import cn.binarywang.wx.miniapp.api.WxMaCodeService;
 import cn.binarywang.wx.miniapp.api.WxMaMediaService;
@@ -11,7 +31,6 @@ import cn.binarywang.wx.miniapp.api.WxMaTemplateService;
 import cn.binarywang.wx.miniapp.api.WxMaUserService;
 import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
 import cn.binarywang.wx.miniapp.config.WxMaConfig;
-import com.google.common.base.Joiner;
 import me.chanjar.weixin.common.bean.WxAccessToken;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -24,21 +43,6 @@ import me.chanjar.weixin.common.util.http.SimpleGetRequestExecutor;
 import me.chanjar.weixin.common.util.http.SimplePostRequestExecutor;
 import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
 import me.chanjar.weixin.common.util.http.apache.DefaultApacheHttpClientBuilder;
-import org.apache.http.HttpHost;
-import org.apache.http.client.config.RequestConfig;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.BasicResponseHandler;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.locks.Lock;
-
-import static cn.binarywang.wx.miniapp.constant.WxMaConstants.ErrorCode.*;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

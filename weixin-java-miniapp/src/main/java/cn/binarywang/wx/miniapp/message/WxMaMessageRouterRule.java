@@ -1,16 +1,16 @@
 package cn.binarywang.wx.miniapp.message;
 
-import cn.binarywang.wx.miniapp.api.WxMaService;
-import cn.binarywang.wx.miniapp.bean.WxMaMessage;
-import me.chanjar.weixin.common.api.WxErrorExceptionHandler;
-import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.common.session.WxSessionManager;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+
+import cn.binarywang.wx.miniapp.api.WxMaService;
+import cn.binarywang.wx.miniapp.bean.WxMaMessage;
+import me.chanjar.weixin.common.api.WxErrorExceptionHandler;
+import me.chanjar.weixin.common.error.WxErrorException;
+import me.chanjar.weixin.common.session.WxSessionManager;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

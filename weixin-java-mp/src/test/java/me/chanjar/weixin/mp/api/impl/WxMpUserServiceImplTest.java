@@ -1,6 +1,15 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
@@ -8,11 +17,6 @@ import me.chanjar.weixin.mp.api.test.TestConfigStorage;
 import me.chanjar.weixin.mp.bean.WxMpUserQuery;
 import me.chanjar.weixin.mp.bean.result.WxMpUser;
 import me.chanjar.weixin.mp.bean.result.WxMpUserList;
-import org.testng.*;
-import org.testng.annotations.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * 测试用户相关的接口

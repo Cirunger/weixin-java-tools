@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.bean;
 
-import com.google.gson.Gson;
-import lombok.Data;
-
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
+
+import com.google.gson.Gson;
+
+import lombok.Data;
 
 /**
  * Created by rememberber on 2017/6/5.

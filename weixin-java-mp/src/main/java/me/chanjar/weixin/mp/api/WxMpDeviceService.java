@@ -1,7 +1,15 @@
 package me.chanjar.weixin.mp.api;
 
 import me.chanjar.weixin.common.error.WxErrorException;
-import me.chanjar.weixin.mp.bean.device.*;
+import me.chanjar.weixin.mp.bean.device.TransMsgResp;
+import me.chanjar.weixin.mp.bean.device.WxDeviceAuthorize;
+import me.chanjar.weixin.mp.bean.device.WxDeviceAuthorizeResult;
+import me.chanjar.weixin.mp.bean.device.WxDeviceBind;
+import me.chanjar.weixin.mp.bean.device.WxDeviceBindDeviceResult;
+import me.chanjar.weixin.mp.bean.device.WxDeviceBindResult;
+import me.chanjar.weixin.mp.bean.device.WxDeviceMsg;
+import me.chanjar.weixin.mp.bean.device.WxDeviceOpenIdResult;
+import me.chanjar.weixin.mp.bean.device.WxDeviceQrCodeResult;
 
 /**
  * Created by keungtung on 10/12/2016.

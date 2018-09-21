@@ -1,18 +1,21 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import static org.testng.AssertJUnit.assertNotNull;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
 import com.google.inject.Inject;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
 import me.chanjar.weixin.mp.bean.store.WxMpStoreBaseInfo;
 import me.chanjar.weixin.mp.bean.store.WxMpStoreInfo;
 import me.chanjar.weixin.mp.bean.store.WxMpStoreListResult;
-import org.testng.annotations.*;
-
-import java.math.BigDecimal;
-import java.util.List;
-
-import static org.testng.AssertJUnit.*;
 
 /**
  * Created by Binary Wang on 2016-09-23.

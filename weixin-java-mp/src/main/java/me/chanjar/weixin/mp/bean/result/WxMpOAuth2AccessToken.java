@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.bean.result;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
-import java.io.Serializable;
 
 /**
  * https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842

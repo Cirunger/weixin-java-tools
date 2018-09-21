@@ -1,12 +1,13 @@
 package me.chanjar.weixin.common.bean.menu;
 
-import com.google.gson.annotations.SerializedName;
-import lombok.Data;
-import me.chanjar.weixin.common.util.ToStringUtils;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.google.gson.annotations.SerializedName;
+
+import lombok.Data;
+import me.chanjar.weixin.common.util.ToStringUtils;
 
 @Data
 public class WxMenuButton implements Serializable {

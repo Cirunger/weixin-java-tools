@@ -1,12 +1,13 @@
 package me.chanjar.weixin.mp.util.json;
 
+import java.lang.reflect.Type;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import me.chanjar.weixin.mp.bean.WxMpMassVideo;
 
-import java.lang.reflect.Type;
+import me.chanjar.weixin.mp.bean.WxMpMassVideo;
 
 /**
  * @author Daniel Qian

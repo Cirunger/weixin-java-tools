@@ -1,22 +1,24 @@
 package me.chanjar.weixin.cp.api.impl;
 
-import com.google.common.collect.Lists;
-import com.google.inject.Inject;
-import me.chanjar.weixin.cp.api.ApiTestModule;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.bean.Gender;
-import me.chanjar.weixin.cp.bean.WxCpInviteResult;
-import me.chanjar.weixin.cp.bean.WxCpUser;
+import static org.testng.Assert.assertNotEquals;
+import static org.testng.Assert.assertNotNull;
+
+import java.util.List;
+import java.util.Map;
+
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
 
-import java.util.List;
-import java.util.Map;
+import com.google.common.collect.Lists;
+import com.google.inject.Inject;
 
-import static org.testng.Assert.assertNotEquals;
-import static org.testng.Assert.assertNotNull;
+import me.chanjar.weixin.cp.api.ApiTestModule;
+import me.chanjar.weixin.cp.api.WxCpService;
+import me.chanjar.weixin.cp.bean.Gender;
+import me.chanjar.weixin.cp.bean.WxCpInviteResult;
+import me.chanjar.weixin.cp.bean.WxCpUser;
 
 /**
  * <pre>

@@ -1,12 +1,13 @@
 package cn.binarywang.wx.miniapp.bean;
 
-import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
-import com.google.gson.annotations.SerializedName;
-import lombok.Builder;
-import lombok.Data;
-
 import java.io.Serializable;
 import java.util.List;
+
+import com.google.gson.annotations.SerializedName;
+
+import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
+import lombok.Builder;
+import lombok.Data;
 
 /**
  * 域名相关操作

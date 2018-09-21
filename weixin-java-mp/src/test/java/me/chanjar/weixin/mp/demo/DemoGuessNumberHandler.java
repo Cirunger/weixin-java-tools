@@ -1,5 +1,9 @@
 package me.chanjar.weixin.mp.demo;
 
+import java.util.Map;
+import java.util.Random;
+import java.util.regex.Pattern;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.session.WxSession;
 import me.chanjar.weixin.common.session.WxSessionManager;
@@ -9,10 +13,6 @@ import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
-
-import java.util.Map;
-import java.util.Random;
-import java.util.regex.Pattern;
 
 public class DemoGuessNumberHandler implements WxMpMessageHandler, WxMpMessageMatcher {
 

@@ -1,23 +1,14 @@
 package me.chanjar.weixin.cp.api.impl;
 
-import com.google.inject.Inject;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.bean.menu.WxMenuButton;
-import me.chanjar.weixin.cp.api.ApiTestModule;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 import me.chanjar.weixin.cp.api.WxCpAgentService;
 import me.chanjar.weixin.cp.api.WxCpService;
 import me.chanjar.weixin.cp.bean.WxCpAgent;
-import me.chanjar.weixin.cp.config.WxCpInMemoryConfigStorage;
-import org.mockito.Mock;
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Guice;
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertNotNull;
-import static org.mockito.Mockito.*;
 
 
 /**

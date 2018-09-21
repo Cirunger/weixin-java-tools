@@ -1,10 +1,12 @@
 package me.chanjar.weixin.mp.api.test;
 
-import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.mp.api.WxMpInMemoryConfigStorage;
+import java.util.concurrent.locks.Lock;
+
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.util.concurrent.locks.Lock;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+import me.chanjar.weixin.mp.api.WxMpInMemoryConfigStorage;
 
 @XStreamAlias("xml")
 public class TestConfigStorage extends WxMpInMemoryConfigStorage {

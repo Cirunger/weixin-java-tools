@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.bean;
 
+import java.io.Serializable;
+
 import lombok.Data;
 import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
-import java.io.Serializable;
 
 /**
  * @author miller

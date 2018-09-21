@@ -1,13 +1,14 @@
 package me.chanjar.weixin.open.api.impl;
 
+import org.apache.http.HttpHost;
+import org.apache.http.impl.client.CloseableHttpClient;
+
 import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.common.util.http.HttpType;
 import me.chanjar.weixin.common.util.http.SimpleGetRequestExecutor;
 import me.chanjar.weixin.common.util.http.SimplePostRequestExecutor;
 import me.chanjar.weixin.common.util.http.apache.DefaultApacheHttpClientBuilder;
 import me.chanjar.weixin.open.api.WxOpenConfigStorage;
-import org.apache.http.HttpHost;
-import org.apache.http.impl.client.CloseableHttpClient;
 
 /**
  * apache-http方式实现

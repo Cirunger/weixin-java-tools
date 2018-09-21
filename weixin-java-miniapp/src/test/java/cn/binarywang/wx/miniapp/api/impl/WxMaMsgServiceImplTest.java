@@ -1,17 +1,20 @@
 package cn.binarywang.wx.miniapp.api.impl;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.testng.annotations.Guice;
+import org.testng.annotations.Test;
+
+import com.google.common.collect.Lists;
+import com.google.inject.Inject;
+
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaKefuMessage;
 import cn.binarywang.wx.miniapp.bean.WxMaTemplateMessage;
 import cn.binarywang.wx.miniapp.test.ApiTestModule;
 import cn.binarywang.wx.miniapp.test.TestConfig;
-import com.google.common.collect.Lists;
-import com.google.inject.Inject;
 import me.chanjar.weixin.common.error.WxErrorException;
-import org.testng.annotations.*;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * 测试消息相关接口

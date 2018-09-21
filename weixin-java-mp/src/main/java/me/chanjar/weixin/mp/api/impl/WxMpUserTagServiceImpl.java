@@ -1,9 +1,14 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
+
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+
 import me.chanjar.weixin.common.WxType;
 import me.chanjar.weixin.common.error.WxError;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -12,9 +17,6 @@ import me.chanjar.weixin.mp.api.WxMpUserTagService;
 import me.chanjar.weixin.mp.bean.tag.WxTagListUser;
 import me.chanjar.weixin.mp.bean.tag.WxUserTag;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-import org.apache.commons.lang3.StringUtils;
-
-import java.util.List;
 
 /**
  * Created by Binary Wang on 2016/9/2.

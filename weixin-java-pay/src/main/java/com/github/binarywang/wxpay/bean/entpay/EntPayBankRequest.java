@@ -3,6 +3,7 @@ package com.github.binarywang.wxpay.bean.entpay;
 import com.github.binarywang.wxpay.bean.request.BaseWxPayRequest;
 import com.github.binarywang.wxpay.exception.WxPayException;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

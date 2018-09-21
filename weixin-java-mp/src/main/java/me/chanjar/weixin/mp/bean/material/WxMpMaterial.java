@@ -1,11 +1,11 @@
 package me.chanjar.weixin.mp.bean.material;
 
-import lombok.Data;
-
 import java.io.File;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
+
+import lombok.Data;
 
 @Data
 public class WxMpMaterial implements Serializable {

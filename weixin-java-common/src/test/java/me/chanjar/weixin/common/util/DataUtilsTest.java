@@ -1,9 +1,8 @@
 package me.chanjar.weixin.common.util;
 
-import org.testng.annotations.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.testng.Assert.*;
+
+import org.testng.annotations.Test;
 
 /**
  * <pre>

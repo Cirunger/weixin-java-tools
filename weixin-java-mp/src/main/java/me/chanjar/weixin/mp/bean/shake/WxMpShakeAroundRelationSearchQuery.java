@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.bean.shake;
 
-import com.google.gson.JsonObject;
-import lombok.Data;
-
 import java.io.Serializable;
+
+import com.google.gson.JsonObject;
+
+import lombok.Data;
 
 @Data
 public class WxMpShakeAroundRelationSearchQuery implements Serializable {

@@ -1,8 +1,8 @@
 package me.chanjar.weixin.common.bean;
 
-import lombok.Data;
-
 import java.io.Serializable;
+
+import lombok.Data;
 
 /**
  * jspai signature.

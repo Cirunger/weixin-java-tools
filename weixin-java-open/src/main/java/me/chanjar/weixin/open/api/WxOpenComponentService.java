@@ -1,5 +1,7 @@
 package me.chanjar.weixin.open.api;
 
+import java.util.List;
+
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -10,8 +12,6 @@ import me.chanjar.weixin.open.bean.message.WxOpenXmlMessage;
 import me.chanjar.weixin.open.bean.result.WxOpenAuthorizerInfoResult;
 import me.chanjar.weixin.open.bean.result.WxOpenAuthorizerOptionResult;
 import me.chanjar.weixin.open.bean.result.WxOpenQueryAuthResult;
-
-import java.util.List;
 
 /**
  * @author <a href="https://github.com/007gzs">007</a>

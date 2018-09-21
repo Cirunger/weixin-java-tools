@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.bean.shake;
 
+import java.io.Serializable;
+
 import com.google.gson.JsonObject;
+
 import lombok.Data;
 import me.chanjar.weixin.common.util.json.GsonHelper;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
-
-import java.io.Serializable;
 
 @Data
 public class WxMpShakeAroundPageAddResult implements Serializable {

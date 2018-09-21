@@ -1,6 +1,7 @@
 package me.chanjar.weixin.mp.bean.device;
 
 import com.google.gson.annotations.SerializedName;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import me.chanjar.weixin.common.util.ToStringUtils;
